@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Music Player</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css'>
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css'><link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<body>
+    <div class="album-cover">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img
+              src="Images/1.webp" />
+            <div class="overlay">
+              <a
+                href="https://www.youtube.com/watch?v=fe_MLjPGpOo&list=PL8dSk2xA1Depkc0KzITR7naLYlO1AaqH8&index=42&ab_channel=Syrex"
+                target="_blank"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="Images/2.webp" />
+            <div class="overlay">
+              <a
+                href="https://www.youtube.com/watch?v=ALvM6-1tb_s&list=PL8dSk2xA1Depkc0KzITR7naLYlO1AaqH8&index=25&ab_channel=MagicMusic"
+                target="_blank"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="Images/3.webp" />
+            <div class="overlay">
+              <a
+                href="https://www.youtube.com/watch?v=Lz5whfYhJ24&list=PL8dSk2xA1Depkc0KzITR7naLYlO1AaqH8&index=46&ab_channel=TikTokTunes"
+                target="_blank"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="Images/4.webp" />
+            <div class="overlay">
+              <a
+                href="https://www.youtube.com/watch?v=qU2d9kZMIr4&list=PL8dSk2xA1Depkc0KzITR7naLYlO1AaqH8&index=47&ab_channel=headsetlyrics"
+                target="_blank"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="Images/5.webp" />
+            <div class="overlay">
+              <a
+                href="https://www.youtube.com/watch?v=GQrIiqPQ-KY&list=PL8dSk2xA1Depkc0KzITR7naLYlO1AaqH8&index=53&ab_channel=UniqueVibes"
+                target="_blank"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="Images/6.webp" />
+            <div class="overlay">
+              <a
+                href="https://www.youtube.com/watch?v=rwLa3PAjmH8&list=PL8dSk2xA1Depkc0KzITR7naLYlO1AaqH8&index=54&ab_channel=RachelGardner"
+                target="_blank"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="Images/7.webp" />
+            <div class="overlay">
+              <a
+                href="https://www.youtube.com/watch?v=AGShYg_Mz_c&ab_channel=VibeMusic"
+                target="_blank"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="music-player">
+      <h1>Title</h1>
+      <p>Song Name</p>
+
+      <audio id="song">
+        <source src="song-list/Luke-Bergs-Gold.mp3" type="audio/mpeg" />
+      </audio>
+
+      <input type="range" value="0" id="progress" />
+
+      <div class="controls">
+        <button class="backward">
+          <i class="fa-solid fa-backward"></i>
+        </button>
+        <button class="play-pause-btn">
+          <i class="fa-solid fa-play" id="controlIcon"></i>
+        </button>
+        <button class="forward">
+          <i class="fa-solid fa-forward"></i>
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js'></script>
+<script src='https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js'></script>
+<script src='https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js'></script><script  src="script.js"></script>
+
+</body>
+</html>
